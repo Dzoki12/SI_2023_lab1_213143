@@ -1,0 +1,101 @@
+Microsoft Windows [Version 10.0.22621.1413]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Users\gorgi>mkdir SI_2023_lab1_213143
+
+C:\Users\gorgi>cd SI_2023_lab1_213143
+
+C:\Users\gorgi\SI_2023_lab1_213143>git init
+
+C:\Users\gorgi\SI_2023_lab1_213143>git remote add origin https://github.com/Dzoki12/SI_2023_lab1_213143.git
+
+C:\Users\gorgi\SI_2023_lab1_213143>git add README.md
+
+C:\Users\gorgi\SI_2023_lab1_213143>git commit -m "Initial commit"
+On branch master
+
+
+
+C:\Users\gorgi\SI_2023_lab1_213143>git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/Dzoki12/SI_2023_lab1_213143.git'
+
+C:\Users\gorgi\SI_2023_lab1_213143>notepad README.md
+
+C:\Users\gorgi\SI_2023_lab1_213143>git add SILab1.java
+
+C:\Users\gorgi\SI_2023_lab1_213143>git add README.md
+
+C:\Users\gorgi\SI_2023_lab1_213143>git commit -m "Initial commit"
+
+C:\Users\gorgi\SI_2023_lab1_213143>git push -u origin master
+
+
+C:\Users\gorgi\SI_2023_lab1_213143>git branch bug1
+
+C:\Users\gorgi\SI_2023_lab1_213143>git branch bug2
+
+C:\Users\gorgi\SI_2023_lab1_213143>git branch bug3
+
+C:\Users\gorgi\SI_2023_lab1_213143>git checkout bug1
+
+C:\Users\gorgi\SI_2023_lab1_213143>notepad SILab1.java
+
+C:\Users\gorgi\SI_2023_lab1_213143>git add SILab1.java
+
+C:\Users\gorgi\SI_2023_lab1_213143>git commit -m "Fix wrong loop for reading"
+
+C:\Users\gorgi\SI_2023_lab1_213143>git checkout bug2
+
+C:\Users\gorgi\SI_2023_lab1_213143>notepad SILab1.java
+
+C:\Users\gorgi\SI_2023_lab1_213143>git add SILab1.java
+
+C:\Users\gorgi\SI_2023_lab1_213143>git commit -m"Fix method sumEvenNumbers"
+
+
+C:\Users\gorgi\SI_2023_lab1_213143>git checkout bug3
+Switched to branch 'bug3'
+
+C:\Users\gorgi\SI_2023_lab1_213143>notepad SILab1.java
+
+C:\Users\gorgi\SI_2023_lab1_213143>git add SILab1.java
+
+C:\Users\gorgi\SI_2023_lab1_213143>git commit -m "Fix method sumEvenNumbers"
+
+C:\Users\gorgi\SI_2023_lab1_213143>git push origin --o
+
+C:\Users\gorgi\SI_2023_lab1_213143>git checkout master
+
+
+C:\Users\gorgi\SI_2023_lab1_213143>git merge bug1 fast-forward merge
+
+C:\Users\gorgi\SI_2023_lab1_213143>git merge bug1
+
+C:\Users\gorgi\SI_2023_lab1_213143>git push origin --all
+
+C:\Users\gorgi\SI_2023_lab1_213143>git merge bug2
+
+C:\Users\gorgi\SI_2023_lab1_213143>git push origin --all
+
+C:\Users\gorgi\SI_2023_lab1_213143>git checkout bug3
+Switched to branch 'bug3'
+
+C:\Users\gorgi\SI_2023_lab1_213143>git rebase master
+Successfully rebased and updated refs/heads/bug3.
+
+C:\Users\gorgi\SI_2023_lab1_213143>git push --force origin bug3
+
+
+C:\Users\gorgi\SI_2023_lab1_213143>git checkout master
+
+C:\Users\gorgi\SI_2023_lab1_213143> git merge bug3
+
+
+C:\Users\gorgi\SI_2023_lab1_213143>git push origin --all
+
+C:\Users\gorgi\SI_2023_lab1_213143>git log
+
+   
+
+C:\Users\gorgi\SI_2023_lab1_213143>git add --all
